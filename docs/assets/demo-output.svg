@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="620" viewBox="0 0 1400 620">
+<rect width="1400" height="620" rx="18" fill="#121418"/>
+<rect width="1400" height="58" rx="18" fill="#26292e"/>
+<circle cx="34" cy="29" r="9" fill="#ff5f56"/><circle cx="68" cy="29" r="9" fill="#ffbd2e"/><circle cx="102" cy="29" r="9" fill="#27c93f"/>
+<g font-family="monospace" fill="#f1f1f1">
+<text x="44" y="108" font-size="30" font-weight="700">Oracle ETL Batch Framework — Demo</text>
+<text x="44" y="165" font-size="24">SQL&gt; exec pkg_customer_load.run;</text>
+<text x="44" y="225" font-size="22">BATCH_ID  BATCH_NAME           STATUS   READ  INSERTED  UPDATED  REJECTED</text>
+<text x="44" y="265" font-size="22">--------  -------------------  -------  ----  --------  -------  --------</text>
+<text x="44" y="305" font-size="22">1005      CUSTOMER_DAILY_LOAD  PARTIAL     3         1        0         2</text>
+<text x="44" y="385" font-size="22">Rejected rows:</text>
+<text x="44" y="430" font-size="22">3002  Invalid e-mail address: invalid-email</text>
+<text x="44" y="470" font-size="22">NULL  CUSTOMER_ID is mandatory</text>
+<text x="44" y="550" font-size="20" fill="#a8b0bb">Expected demo output — generated from the included sample scenario.</text>
+</g></svg>
