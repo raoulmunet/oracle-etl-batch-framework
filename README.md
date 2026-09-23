@@ -23,6 +23,8 @@ flowchart LR
     L --> D[(DWH_CUSTOMER)]
 ```
 
+<p align="center"><img src="docs/assets/demo-output.svg" alt="Oracle ETL Batch Framework demo output" width="900"/></p>
+
 A reusable, lightweight ETL batch execution framework implemented in Oracle SQL and PL/SQL.
 
 The project demonstrates:
